@@ -33,7 +33,7 @@ export default class Task extends Component {
                     onClick={this.toggleChecked.bind(this)}
                 />
 
-                <span className="text">{this.props.task.text} Created at: { Tasks.find(this.props.task._id).fetch().createdAt }</span>
+                <span className="text">{this.props.task.text}</span>
             </li>
         );
     }
